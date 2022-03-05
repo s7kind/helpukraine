@@ -1,0 +1,53 @@
+@import "normolize";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+
+html {
+  background-color: #fafafa;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #111;
+}
+
+a {
+  color: #ffd700;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+small {
+  color: #8c8c8c;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fafafa;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  overflow: hidden;
+  padding: 40px 0;
+
+  small {
+    span {
+      &:nth-child(1) {
+        color: #0057b7;
+      }
+      &:nth-child(2) {
+        color: #ffd700;
+      }
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1024px;
+}

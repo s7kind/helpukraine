@@ -1,0 +1,21 @@
+.main__page {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  color: #111;
+
+  span {
+    color: #0057b7;
+  }
+}
