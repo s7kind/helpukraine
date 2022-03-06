@@ -131,14 +131,17 @@ export default function Home() {
                                     <h4 className={styles.box__title}>Write to <br/> your government</h4>
                                     <div className={styles.box__info}>
                                         <p>Write to your local member of parliament or to your country’s leader,
-                                            demanding
-                                            urgent action! You can use our template below as is, or modify it according
-                                            to
-                                            your wishes!</p>
+                                            demanding urgent action! Ukraine needs three specific things:</p>
+                                        <ul>
+                                            <li>Manpower</li>
+                                            <li>Weapons and army provisions</li>
+                                            <li>Humanitarian corridors for citizens caught up in the fighting</li>
+                                        </ul>
+                                        <p>You can use our template which addresses these concerns.</p>
                                     </div>
                                     <Link href="/">
                                         <a className="button button__blue">
-                                            <span>Write</span>
+                                            <span>How to contact your MP</span>
                                         </a>
                                     </Link>
                                 </div>
@@ -160,9 +163,135 @@ export default function Home() {
                                         </a>
                                     </Link>
                                 </div>
+
+                                <img src="/static/donate__image.png" alt="" className={styles.donate__image}/>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className={styles.big__image}>
+                    <div className={styles.container}>
+                        <div className={styles.big__image_box}>
+                            <ul>
+                                <li>
+                                    <b>Russian troops are committing war crimes:</b> <a href="#">Thermobaric
+                                    bombs</a> have been dropped.
+                                    Children have been shot trying to escape with their families. Six women have died
+                                    after experiencing sexual violence at the hands of Russian soldiers.
+                                </li>
+                                <li>
+                                    Humanitarian aid is being restricted: With each day, more families in regions with
+                                    the heaviest fighting have had their electricity cut, and are being blockaded from
+                                    receiving vital supplies, such as food and water.
+                                </li>
+                                <li>
+                                    Nuclear catastrophe is a real threat: Ukraine is home to 15 nuclear reactors.
+                                    Chernobyl, the most famous, and Zaporizhzhia, the site of the largest nuclear power
+                                    plant in Europe, are under threat.
+                                </li>
+                                <li>
+                                    Russia continues to lie to its own people: Young soldiers were told they would be on
+                                    training missions. Families are left in the dark about the fate of their sons. State
+                                    media denies there is a war.
+                                </li>
+                                <li>
+                                    Ukraine is a democratic country: Russia launched this war on the pretext of getting
+                                    rid of Nazis in the Ukrainian government. The President Volodymyr Zelenskyy has
+                                    Jewish heritage, having lost relatives in the Holocaust. He is the head of a freely
+                                    elected government.
+                                </li>
+                                <li>
+                                    Ukraine continues to fight: Putin expected a quick victory, not expecting the
+                                    resistance and tenacity of the Ukrainian people. Citizens are putting their lives on
+                                    the line to provide key services and support to their fellow countrymen.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <img src="/static/big__image_bg.png" alt="" className={styles.big__image_bg}/>
+                </section>
+
+                <section className={styles.take__action}>
+                    <div className="container">
+                        <h2 className={styles.take__action_title}>Take action</h2>
+                        <div className={styles.take__action_description}>
+                            <p>Want to proudly tell your grandchildren you fought for freedom in a war? <br/>
+                                Here are some quick and easy actions you can take from home to help fight for justice
+                                and peace.</p>
+                        </div>
+                        <div className={styles.take__action_box}>
+                            <div className={styles.take__action_item}>
+                                <h5>Share a message with your friends!</h5>
+                                <p>The voices of people around the world are stronger than that of one authoritarian
+                                    government. Raise your voice, post on social media, and let people know what is
+                                    happening.</p>
+                                <div className={styles.take__action_example}>
+                                    <p>
+                                        <span>Example message:</span> Friends, Ukraine is facing a crisis that threatens
+                                        to
+                                        destabilize the world as we know it. Luckily, there are loads of ways you can
+                                        help. Go to Help Ukraine Online, help fight Putin, and stop the war!
+                                    </p>
+                                </div>
                             </div>
 
+                            <div className={styles.take__action_item}>
+                                <h5>Become an influencer!</h5>
+                                <p>Assist Russian influencers in using their voice!
+                                    See the list of influencers below and comment on their posts with details of the war
+                                    and what is happening.</p>
+                                <div className={styles.take__action_example}>
+                                    <p>
+                                        <span>Example message:</span> Hey name I really enjoy your channel. You are
+                                        probably aware of the war in Ukraine. Civilians are being targeted and people
+                                        are suffering. Please use your influence to reach out to your followers and let
+                                        them know the truth!
+                                    </p>
+                                    <p className={styles.example_link}><a href="#">List of top Influencers</a></p>
+                                </div>
+                            </div>
 
+                            <div className={styles.take__action_item}>
+                                <h5>Become a Russian tourist <br/>
+                                    from your computer!</h5>
+                                <p>Through Google Maps, Trip Advisor, and Russian sales websites, you can reach through
+                                    the propaganda, letting ordinary people know what their government is doing in their
+                                    name.</p>
+                                <div className={styles.take__action_example}>
+                                    <p className={styles.example_link}><a href="#">See how</a></p>
+                                </div>
+                            </div>
+
+                            <div className={styles.take__action_item}>
+                                <h5>Be YouTube Sleuth!</h5>
+                                <p>Russian disinformation is everywhere! Help track down propaganda pages on YouTube and
+                                    report them! See how to do it here:</p>
+                                <div className={styles.take__action_example}>
+                                    <p className={styles.example_link}><a href="#">First Page</a></p>
+                                    <p className={styles.example_link}><a href="#">Second Page</a></p>
+                                </div>
+                            </div>
+
+                            <div className={styles.take__action_item}>
+                                <h5>Get swiping on Tinder!</h5>
+                                <p>Use Tinder (or another geo-based dating app) and write appropriate information in the
+                                    profile description. Be creative! Change your location inside Russia hourly.</p>
+                                <div className={styles.take__action_example}>
+                                    <p><span>Example profile:</span> Hey! I like hanging out, getting drinks, and did
+                                        you know that
+                                        Russia is currently raging war against Ukrainian civilians?</p>
+                                </div>
+                            </div>
+
+                            <div className={styles.take__action_item}>
+                                <h5>Play a game!</h5>
+                                <p>An army of people around the world are helping to slow the output of Russia’s
+                                    misinformation and harmful material through coordinated attacks on offending sites.
+                                    You can even do it through playing an online game! Give it a go <a href="#">here</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
