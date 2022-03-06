@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  position: relative;
+  padding: 31px 0;
+  background: #fff;
+  z-index: 5;
+  &__logo {
+    width: 276px;
+    height: auto;
+    position: relative;
+  }
+}
+

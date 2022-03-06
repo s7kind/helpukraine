@@ -1,21 +1,19 @@
 @import "normolize";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@400;600;700&display=swap');
+
+$Mont: 'Montserrat', sans-serif;
+$League: 'League Spartan', sans-serif;
+
 
 html {
-  background-color: #fafafa;
+  background-color: #E5E5E5;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #111;
-}
-
-a {
-  color: #ffd700;
-  text-decoration: underline;
-  font-weight: 700;
+  color: #212121;
 }
 
 small {
@@ -38,6 +36,7 @@ footer {
       &:nth-child(1) {
         color: #0057b7;
       }
+
       &:nth-child(2) {
         color: #ffd700;
       }
@@ -48,6 +47,34 @@ footer {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
-  max-width: 1024px;
+  padding: 0 16px;
+  max-width: calc(1440px - 280px);
+}
+
+.button {
+  padding: 14px 55px;
+  border-radius: 5px;
+  background: #D44646;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+
+  span {
+    font-family: $League;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 127%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  &__red {
+    background: #D44646;
+  }
+
+  &__blue {
+    background: #005BBB;
+  }
 }

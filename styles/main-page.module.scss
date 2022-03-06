@@ -1,21 +1,172 @@
-.main__page {
+$Mont: 'Montserrat', sans-serif;
+$League: 'League Spartan', sans-serif;
+
+.hero {
   width: 100%;
-  max-width: 1200px;
-  padding: 0 16px;
-  margin: 0 auto;
-  height: 100vh;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  background: #707070;
+
+  &__info {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    max-width: 866px;
+
+    h1 {
+      font-family: $Mont;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 151px;
+      line-height: 93%;
+      color: #FFFFFF;
+      margin-bottom: 17px;
+    }
+
+    p {
+      font-family: $League;
+      max-width: 767px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 127%;
+      color: #FFFFFF;
+      margin-bottom: 44px;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 0;
+    right: 34px;
+    z-index: 3;
+    width: 627px;
+    height: auto;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
 }
 
-.title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 64px;
-  color: #111;
+.why {
+  padding: 110px 0 122px;
 
-  span {
-    color: #0057b7;
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96.8277px;
+    line-height: 100.5%;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 68px;
+  }
+
+  &__info {
+    max-width: 769px;
+    margin: 0 auto 62px;
+
+    p {
+      font-family: $League;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 127%;
+      text-align: center;
+      color: #212121;
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__big {
+    max-width: 871px;
+    margin: 0 auto;
+
+    p {
+      font-family: $Mont;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 33.2191px;
+      line-height: 127%;
+      text-align: center;
+      color: #212121;
+      margin-bottom: 36px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    a {
+      margin: 0 auto;
+    }
+  }
+}
+
+.images__box {
+  width: 100%;
+  position: relative;
+  display: flex;
+
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#282828, 0.24);
+    z-index: 3;
+    content: '';
+  }
+
+  &_item {
+    z-index: 2;
+    width: 25%;
+    height: 425px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+
+.what__can {
+  position: relative;
+  padding: 119px 0 138px;
+
+  &_title {
+    font-family: $Mont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96.8277px;
+    line-height: 100.5%;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 105px;
+  }
+
+  &_box {
+
   }
 }
