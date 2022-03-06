@@ -1,5 +1,5 @@
 @import "normolize";
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600&family=Montserrat:wght@400;500;600;700&display=swap');
 
 $Mont: 'Montserrat', sans-serif;
 $League: 'League Spartan', sans-serif;
@@ -19,39 +19,22 @@ body {
   color: #212121;
 }
 
+a {
+  color: #005BBB;
+  text-decoration: underline;
+}
+
 small {
   color: #8c8c8c;
   font-weight: 300;
   font-size: 12px;
 }
 
-footer {
-  width: 100%;
-  margin: 0 auto;
-  background-color: #fafafa;
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
-  overflow: hidden;
-  padding: 40px 0;
-
-  small {
-    span {
-      &:nth-child(1) {
-        color: #0057b7;
-      }
-
-      &:nth-child(2) {
-        color: #ffd700;
-      }
-    }
-  }
-}
-
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
-  max-width: calc(1440px - 280px);
+  max-width: 1200px;
 }
 
 .button {
@@ -62,15 +45,56 @@ footer {
   align-items: center;
   justify-content: center;
   max-width: fit-content;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    content: '';
+    transition: all .3s ease-in-out;
+    background: #FFD500;
+    border-right: 8px;
+  }
+
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    content: '';
+    transition: all .3s ease-in-out;
+    background: #005BBB;
+    border-right: 8px;
+  }
+
+  &:hover {
+    &:before {
+      height: 50%;
+    }
+
+    &:after {
+      height: 50%;
+    }
+  }
 
   span {
     font-family: $League;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 20px;
     line-height: 127%;
     text-align: center;
     color: #FFFFFF;
+    position: relative;
+    z-index: 3;
+
   }
 
   &__red {
@@ -79,5 +103,38 @@ footer {
 
   &__blue {
     background: #005BBB;
+  }
+}
+
+ul {
+  li {
+    font-family: $League;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 127%;
+    color: #212121;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 46px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      position: absolute;
+      top: 7px;
+      left: 0;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #FFD500;
+      content: '';
+    }
+
+    b {
+      font-weight: 600;
+    }
   }
 }
