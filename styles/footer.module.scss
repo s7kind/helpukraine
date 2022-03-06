@@ -1,0 +1,41 @@
+.footer {
+  padding: 25px 0;
+  background: #fff;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: calc(1200px);
+  }
+
+  &__logo {
+    width: 196px;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-left: 30px;
+
+      svg {
+        path {
+          transition: fill .4s ease-in-out;
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: #FFD500;
+          }
+        }
+      }
+    }
+  }
+}

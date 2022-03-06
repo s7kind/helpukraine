@@ -6,7 +6,6 @@ export default function Home() {
     return (<>
             <Head>
                 <title>Help Ukraine Online</title>
-                <link rel="icon" href="/favicon.ico"/>
             </Head>
 
             <main>
@@ -73,6 +72,22 @@ export default function Home() {
                         <img src="/static/image__box--4.png" alt="Help Ukraine"/>
                     </div>
                 </section>
+
+                <section className={styles.trusted}>
+                    <div className={styles.trusted__wrap}>
+                        <h4 className={styles.trusted__title}>
+                            Trusted News Sources
+                        </h4>
+                        <p>Keep track of the current situation in Ukraine from trusted and verified sources to avoid
+                            fake information.</p>
+                        <Link href="/">
+                            <a className="button button__blue">
+                                <span>All trusted sources</span>
+                            </a>
+                        </Link>
+                    </div>
+                </section>
+
                 <section className={styles.what__can}>
                     <div className="container">
                         <h2 className={styles.what__can_title}>What you can do</h2>
@@ -98,7 +113,7 @@ export default function Home() {
                             <div className={styles.what__can_email}>
                                 <div className={styles.email__box}>
                                     <p>Letter/email template:</p>
-                                    <p>Dear NAME</p>
+                                    <p>Dear &laquo;NAME&raquo;</p>
 
                                     <p>On 24 February, Russia started a war with Ukraine. With each passing day, we see
                                         more
@@ -124,7 +139,7 @@ export default function Home() {
 
                                     <p>Regards,
                                         <br/>
-                                        NAME
+                                        &laquo;NAME&raquo;
                                     </p>
                                 </div>
                                 <div className={styles.box__wrap}>
@@ -175,34 +190,38 @@ export default function Home() {
                         <div className={styles.big__image_box}>
                             <ul>
                                 <li>
-                                    <b>Russian troops are committing war crimes:</b> <a href="#">Thermobaric
-                                    bombs</a> have been dropped.
-                                    Children have been shot trying to escape with their families. Six women have died
-                                    after experiencing sexual violence at the hands of Russian soldiers.
+                                    <b>Russian troops are committing war crimes:</b>
+                                    <a href="#">Thermobaric bombs</a> have been dropped.
+                                    <a href="#">Children have been shot</a> trying to escape with their families.
+                                    <a href="#">Six women have died after experiencing sexual violence</a> at the hands
+                                    of Russian soldiers.
                                 </li>
                                 <li>
-                                    Humanitarian aid is being restricted: With each day, more families in regions with
+                                    <b>Humanitarian aid is being restricted:</b> With each day, more families in regions
+                                    with
                                     the heaviest fighting have had their electricity cut, and are being blockaded from
                                     receiving vital supplies, such as food and water.
                                 </li>
                                 <li>
-                                    Nuclear catastrophe is a real threat: Ukraine is home to 15 nuclear reactors.
+                                    <b>Nuclear catastrophe is a real threat:</b> Ukraine is home to 15 nuclear reactors.
                                     Chernobyl, the most famous, and Zaporizhzhia, the site of the largest nuclear power
                                     plant in Europe, are under threat.
                                 </li>
                                 <li>
-                                    Russia continues to lie to its own people: Young soldiers were told they would be on
+                                    <b>Russia continues to lie to its own people:</b> Young soldiers were told they
+                                    would be on
                                     training missions. Families are left in the dark about the fate of their sons. State
                                     media denies there is a war.
                                 </li>
                                 <li>
-                                    Ukraine is a democratic country: Russia launched this war on the pretext of getting
+                                    <b>Ukraine is a democratic country:</b> Russia launched this war on the pretext of
+                                    getting
                                     rid of Nazis in the Ukrainian government. The President Volodymyr Zelenskyy has
                                     Jewish heritage, having lost relatives in the Holocaust. He is the head of a freely
                                     elected government.
                                 </li>
                                 <li>
-                                    Ukraine continues to fight: Putin expected a quick victory, not expecting the
+                                    <b>Ukraine continues to fight:</b> Putin expected a quick victory, not expecting the
                                     resistance and tenacity of the Ukrainian people. Citizens are putting their lives on
                                     the line to provide key services and support to their fellow countrymen.
                                 </li>
@@ -292,6 +311,68 @@ export default function Home() {
                                     You can even do it through playing an online game! Give it a go <a href="#">here</a>
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className={styles.more}>
+                    <div className="container">
+                        <h2 className={styles.more__title}>Want to do more?</h2>
+                        <div className={styles.more__box}>
+                            <div className={styles.more__item}>
+                                <div className={styles.more__item_wrap}>
+                                    <h5 className={styles.more__item_title}>
+                                        Join the IT Army
+                                    </h5>
+                                    <div className={styles.more__item_text}>
+                                        <p>Ukraine is an IT hotspot, which is bad news for Russia. Thousands of citizens
+                                            are
+                                            helping to wage war on the Kremlin and state security services from their
+                                            computers. The best part is, you can join too!</p>
+                                    </div>
+                                    <Link href="#">
+                                        <a className="button button__blue"><span>Join the Ukrainian IT Army</span></a>
+                                    </Link>
+                                </div>
+                                <div className={styles.more__item_image}>
+                                    <img src="/static/more__it.png" alt="Help Ukraine"/>
+                                </div>
+                            </div>
+
+                            <div className={styles.more__item}>
+                                <div className={styles.more__item_wrap}>
+                                    <h5 className={styles.more__item_title}>
+                                        Join the Ukrainian foreign legion
+                                    </h5>
+                                    <div className={styles.more__item_text}>
+                                        <p>Ukrainian forces are strong, but they can only defend their homeland with
+                                            your help! Join the Ukrainian foreign legion and help defend the free
+                                            world!</p>
+                                    </div>
+                                    <Link href="#">
+                                        <a className="button button__blue"><span>Join the Ukrainian foreign legion</span></a>
+                                    </Link>
+                                </div>
+                                <div className={styles.more__item_image}>
+                                    <img src="/static/more__legion.png" alt="Help Ukraine"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className={styles.banner}>
+                    <div className={styles.banner__wrap}>
+                        <div className={styles.banner__text}>
+                            <p>With your actions, you can <span
+                                style={{color: '#005BBB'}}>stand up for Ukraine</span> and the very <span
+                                style={{color: '#FFD500'}}>future of the free
+                                world</span>.</p>
+                            <Link href="/">
+                                <a className="button button__blue">
+                                    <span>Donate</span>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </section>
