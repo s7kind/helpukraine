@@ -26,17 +26,17 @@ export default function Hero() {
                             destruction, with an increasing threat to the world as we know it. With your help, we
                             can stop Putin, end suffering, and avoid global catastrophe.</p>
                         <div className={styles.hero__buttons}>
-                            <Link href="/">
+                            <Link href="#petition">
                                 <a className="button button__red">
                                     <span>Advocate</span>
                                 </a>
                             </Link>
-                            <Link href="/">
+                            <Link href="#donate">
                                 <a className="button button__blue">
                                     <span>Donate</span>
                                 </a>
                             </Link>
-                            <Link href="/">
+                            <Link href="#take_action">
                                 <a className="button button__blue">
                                     <span>Participate online</span>
                                 </a>

@@ -20,7 +20,7 @@ export default function Home() {
                     <div className={styles.big__image_box}>
                         <ul>
                             <li>
-                                <b>Russian troops are committing war crimes:</b>
+                                <b>Russian troops are committing war crimes: </b>
                                 <a href="#">Thermobaric bombs</a> have been dropped.
                                 <a href="#">Children have been shot</a> trying to escape with their families.
                                 <a href="#">Six women have died after experiencing sexual violence</a> at the hands
@@ -62,7 +62,7 @@ export default function Home() {
                 <img src="/static/big__image_bg.png" alt="" className={styles.big__image_bg}/>
             </section>
 
-            <section className={styles.take__action}>
+            <section className={styles.take__action} id="take_action">
                 <div className="container">
                     <h2 className={styles.take__action_title}>Take action</h2>
                     <div className={styles.take__action_description}>
@@ -169,7 +169,9 @@ export default function Home() {
                                     are suffering. Please use your influence to reach out to your followers and let
                                     them know the truth!
                                 </p>
-                                <p className={styles.example_link}><a href="#">List of top Influencers</a></p>
+                                <p className={styles.example_link}><a
+                                    href="https://starngage.com/app/ru/influencer/ranking" target="_blank">List of top
+                                    Influencers</a></p>
                             </div>
                             <div className={styles.take__action_social}>
                                 <a href="#">
@@ -254,7 +256,7 @@ export default function Home() {
                                 <p className={styles.example_link}><a href="#">See how</a></p>
                             </div>
                             <div className={styles.take__action_social}>
-                                <a href="#">
+                                <a href="https://www.google.com/maps/" target="_blank">
                                     <svg width="22" height="33" viewBox="0 0 22 33" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -274,7 +276,7 @@ export default function Home() {
                                             fill="#EA4335"/>
                                     </svg>
                                 </a>
-                                <a href="#">
+                                <a href="https://www.tripadvisor.com/" target="_blank">
                                     <svg width="41" height="25" viewBox="0 0 41 25" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_120_375)">
@@ -337,9 +339,31 @@ export default function Home() {
                                 You can even do it through playing an online game! Give it a go here:
                             </p>
                             <div className={styles.take__action_example}>
-                                <p className={styles.example_link}><a href="#">Play</a></p>
+                                <p className={styles.example_link}><a
+                                    href="https://playforukraine.live/?fbclid=IwAR2IBtz0YCRlqRIiG_ETymAOpNOimPY26Ib6wSjrJELQcfJP-kMiznErBQs#howitworks1"
+                                    target="_blank">Play</a></p>
                             </div>
                         </div>
+                    </div>
+
+                    <div className={styles.take__action_info} style={{marginTop: '80px'}}>
+                        <div className={styles.take__action_info_box}>
+                            <h2 className={styles.take__action_title} style={{textAlign: 'left'}}>How to flag
+                                content</h2>
+                            <p><span>1. </span>Sign in to YouTube.</p>
+                            <p><span>2. </span>Below the player for the video you want to report, click More.</p>
+                            <p><span>3. </span>In the drop-down menu, choose Report.</p>
+                            <p><span>4. </span>Select the reason that best fits the violation in the video.</p>
+                        </div>
+                        <svg width="140" height="154" viewBox="0 0 140 154" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fillRule="evenodd" clipRule="evenodd"
+                                  d="M10.6327 19.9987C11.7961 18.8769 12.5197 17.3022 12.5197 15.5584C12.5197 12.1522 9.7584 9.39087 6.35214 9.39087C2.94589 9.39087 0.18457 12.1522 0.18457 15.5584C0.18457 18.6025 2.38984 21.1315 5.28992 21.6349L34.1164 151.039C34.4509 152.54 35.9392 153.486 37.4407 153.152C38.9422 152.817 39.8883 151.329 39.5538 149.827L10.6327 19.9987Z"
+                                  fill="#DE4444"/>
+                            <path
+                                d="M30.1005 89.2444L14.6533 23.7721C14.5331 23.2627 14.6133 22.7259 14.8992 22.2875C19.3866 15.4058 32.6127 2.68726 63.4154 11.6868C95.5318 21.0701 113.276 13.4888 120.743 5.08842C122.027 3.64416 125.001 4.06329 125.438 5.94559L139.367 65.9167C139.463 66.3314 139.431 66.7626 139.247 67.1465C134.626 76.7864 116.738 89.3047 78.8732 78.2418C47.4604 69.0641 34.3273 82.4732 30.1005 89.2444Z"
+                                fill="#DE4444"/>
+                        </svg>
                     </div>
                 </div>
             </section>
@@ -358,9 +382,8 @@ export default function Home() {
                                         are helping to wage war on the Kremlin and its corrupt state security
                                         services from their computers. The best part is, you can join too!</p>
                                 </div>
-                                <Link href="#">
-                                    <a className="button button__blue"><span>Join the Ukrainian IT Army</span></a>
-                                </Link>
+                                <a href="https://t.me/itarmyofukraine2022" target="_blank"
+                                   className="button button__blue"><span>Join the Ukrainian IT Army</span></a>
                             </div>
                             <div className={styles.more__item_image}>
                                 <img src="/static/more__it.png" alt="Help Ukraine"/>
@@ -377,9 +400,8 @@ export default function Home() {
                                         your help! Be 1 of the 20,000 who have already joined the Ukrainian Foreign
                                         Legion and are fighting to defend the free world!</p>
                                 </div>
-                                <Link href="#">
-                                    <a className="button button__blue"><span>Join the Ukrainian foreign legion</span></a>
-                                </Link>
+
+                                <a href="https://fightforua.org/" target="_blank" className="button button__blue"><span>Join the Ukrainian foreign legion</span></a>
                             </div>
                             <div className={styles.more__item_image}>
                                 <img src="/static/more__legion.png" alt="Help Ukraine"/>
@@ -408,10 +430,11 @@ export default function Home() {
                             station falls into his hands.
                         </p>
                     </div>
+                    <div className="video"><script async src="https://telegram.org/js/telegram-widget.js?16" data-telegram-post="verkhovnaradaofukraine/873" data-tme-mode data-width="100%"/></div>
                     <div className={styles.why__big}>
                         <p>With your actions, you can stand up for Ukraine and the very future of the free
                             world.</p>
-                        <Link href="/">
+                        <Link href="/donation">
                             <a className="button button__blue">
                                 <span>Donate</span>
                             </a>
@@ -453,7 +476,7 @@ export default function Home() {
                 <div className="container">
                     <div className={styles.banner__text}>
                         <p>With your actions, you can stand up for Ukraine and the very future of democracy.</p>
-                        <Link href="/">
+                        <Link href="/donation">
                             <a className="button button__blue">
                                 <span>Donate</span>
                             </a>
