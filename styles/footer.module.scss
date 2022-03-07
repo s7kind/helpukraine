@@ -39,3 +39,24 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .footer {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__logo {
+      margin-bottom: 20px;
+    }
+
+    &__social {
+      a {
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
