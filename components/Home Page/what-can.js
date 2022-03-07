@@ -10,7 +10,7 @@ export default function WhatCan() {
                     <h2 className={styles.what__can_title}>What you can do</h2>
                     <div className={styles.what__can_box}>
 
-                        <div className={styles.what__can_petition}>
+                        <div className={styles.what__can_petition} id="petition">
                             <div className={styles.box__wrap}>
                                 <h4 className={styles.box__title}>Sign a petition</h4>
                                 <div className={styles.box__info}>
@@ -80,7 +80,7 @@ export default function WhatCan() {
                         </div>
 
 
-                        <div className={styles.what__can_donate}>
+                        <div className={styles.what__can_donate} id="donate">
                             <div className={styles.box__wrap}>
                                 <h4 className={styles.box__title}>Donate</h4>
                                 <div className={styles.box__info}>
