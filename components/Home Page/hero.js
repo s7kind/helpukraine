@@ -3,6 +3,7 @@ import styles from "../../styles/main-page.module.scss";
 import Link from "next/link";
 import React from "react";
 
+
 export default function Hero() {
     return (
         <>

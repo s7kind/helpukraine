@@ -1,8 +1,10 @@
+import ReactPlayer from 'react-player'
+
 import Head from 'next/head'
-import Link from "next/link";
+import Link from "next/link"
 import styles from '../styles/main-page.module.scss'
-import Hero from "../components/Home Page/hero";
-import WhatCan from "../components/Home Page/what-can";
+import Hero from "../components/Home Page/hero"
+import WhatCan from "../components/Home Page/what-can"
 
 export default function Home() {
 
@@ -430,6 +432,12 @@ export default function Home() {
                             station falls into his hands.
                         </p>
                     </div>
+                    <video className={styles.video} id='video' controls="controls" preload='none'>
+                        <source id='mp4' src="/static/video.mp4" type='video/mp4'/>
+                        <source id='webm' src="/static/video.webm" type='video/webm'/>
+                        <source id='ogv' src="/static/video.ogv" type='video/ogg'/>
+                        <p>Your user agent does not support the HTML5 Video element.</p>
+                    </video>
                     <div className={styles.why__big}>
                         <p>With your actions, you can stand up for Ukraine and the very future of the free
                             world.</p>
