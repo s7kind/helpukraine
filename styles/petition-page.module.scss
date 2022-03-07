@@ -1,0 +1,95 @@
+$Mont: 'Montserrat', sans-serif;
+$League: 'League Spartan', sans-serif;
+
+.main {
+  background: #FFFFFF;
+
+  .sec_header {
+    position: relative;
+    width: auto;
+    //height: 50vh;
+    background-size: cover !important;
+    overflow: hidden;
+    left: 0;
+    background: url("../public/petition/background__image.png") no-repeat center top;
+
+    div {
+      position: relative;
+      text-align: left;
+      display: block;
+      width: 80%;
+      margin: 100px auto;
+
+      h1 {
+        margin: 100px 0 40px;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 100.5%;
+        /* or 96px */
+
+        color: #FFFFFF;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 127%;
+        /* or 43px */
+
+        color: #FFFFFF;
+      }
+    }
+  }
+  .container{
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 90px 0;
+
+    .main_content{
+      margin-bottom: 65px;
+
+      h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 120%;
+        /* or 58px */
+        margin-bottom: 25px;
+        color: #212121;
+
+        b{
+          color: #015cbb;
+        }
+      }
+      p{
+        font-style: normal;
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 127%;
+        /* or 25px */
+        color: #212121;
+      }
+    }
+    table tr th{
+      font-style: normal;
+      font-weight: 450;
+      font-size: 20px;
+      line-height: 127%;
+      /* or 25px */
+      color: #212121;
+      padding: 0 100px 40px 0;
+      text-align: left;
+    }
+    table tr th:last-child{
+      padding: 0 0 40px !important;
+    }
+    table tr th:nth-child(2n){
+      vertical-align: middle;
+    }
+  }
+}
