@@ -3,11 +3,13 @@ $League: 'League Spartan', sans-serif;
 
 .main {
   background: #FFFFFF;
+  p{
+    font-family: $League;
+  }
 
-  .sec_header {
+  &__intro {
     position: relative;
     width: auto;
-    //height: 50vh;
     background-size: cover !important;
     overflow: hidden;
     left: 0;
@@ -27,8 +29,6 @@ $League: 'League Spartan', sans-serif;
         font-weight: bold;
         font-size: 96px;
         line-height: 100.5%;
-        /* or 96px */
-
         color: #FFFFFF;
       }
 
@@ -37,23 +37,22 @@ $League: 'League Spartan', sans-serif;
         font-weight: normal;
         font-size: 34px;
         line-height: 127%;
-        /* or 43px */
-
         color: #FFFFFF;
       }
     }
   }
-  .container{
+
+  &__container {
     position: relative;
     display: block;
     width: 80%;
     margin: auto;
     padding: 90px 0;
 
-    .main_content{
+    &__content {
       margin-bottom: 65px;
 
-      h2{
+      h2 {
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
@@ -62,34 +61,78 @@ $League: 'League Spartan', sans-serif;
         margin-bottom: 25px;
         color: #212121;
 
-        b{
+        b {
           color: #015cbb;
         }
       }
-      p{
+
+      h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 120%;
+        color: #212121;
+      }
+
+      p {
         font-style: normal;
         font-weight: 450;
         font-size: 20px;
         line-height: 127%;
-        /* or 25px */
         color: #212121;
+        margin-bottom: 75px;
       }
     }
-    table tr th{
-      font-style: normal;
-      font-weight: 450;
-      font-size: 20px;
-      line-height: 127%;
-      /* or 25px */
-      color: #212121;
-      padding: 0 100px 40px 0;
-      text-align: left;
-    }
-    table tr th:last-child{
-      padding: 0 0 40px !important;
-    }
-    table tr th:nth-child(2n){
-      vertical-align: middle;
+
+    table {
+
+      font-family: $League;
+      margin-top: -50px;
+
+      tr {
+        border-bottom: 2px solid #E6E6E6;
+      }
+
+      tr:last-child {
+        border: none;
+      }
+
+      tr:last-child th:last-child{
+        padding: 40px 0 100px 100px!important;
+      }
+
+      tr:last-child th {
+        padding-bottom: 100px !important;
+      }
+
+
+      tr th {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: left;
+        line-height: 127%;
+        color: #212121;
+        vertical-align: middle;
+
+      }
+
+      //tr:first-child th {
+      //  padding: 0 150px 40px 0!important;
+      //}
+
+      tr:nth-child(1n-1) th {
+        padding: 40px 150px 40px 0;
+      }
+
+      tr th:last-child {
+        padding: 0 0 0 100px !important;
+        text-align: right;
+      }
+
+      tr th:first-child {
+        font-weight: 500;
+      }
     }
   }
 }
