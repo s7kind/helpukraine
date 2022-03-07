@@ -1,0 +1,96 @@
+$Mont: 'Montserrat', sans-serif;
+$League: 'League Spartan', sans-serif;
+
+.main {
+  background: #FFFFFF;
+
+  .master_title {
+    position: relative;
+    width: auto;
+    background-size: cover !important;
+    overflow: hidden;
+    left: 0;
+    background: url("../public/donation/background_image.png") no-repeat center top;
+
+    div {
+      position: relative;
+      text-align: left;
+      display: block;
+      width: 80%;
+      margin: 100px auto;
+
+      h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 100.5%;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+      }
+
+      p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 127%;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .container{
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+
+
+    &__main_content{
+      margin-bottom: 65px;
+
+
+      h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 120%;
+        color: #212121;
+      }
+    }
+    table {
+      tr {
+        border-bottom: 2px solid #E6E6E6;
+      }
+      tr:last-child{
+        border: none;
+      }
+      tr:last-child th{
+        padding-bottom: 100px!important;
+      }
+
+
+      tr th {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 20px;
+        text-align: left;
+        line-height: 127%;
+        color: #212121;
+      }
+
+      tr:first-child th{
+        padding: 0 150px 40px 0;
+      }
+
+      tr:nth-child(2n) th{
+        padding: 40px 150px 40px 0;
+      }
+
+      tr th:last-child {
+        padding: 0 0 0 100px !important;
+        text-align: right;
+      }
+    }
+  }
+}
