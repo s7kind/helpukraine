@@ -71,13 +71,21 @@ $League: 'League Spartan', sans-serif;
       }
     }
     table {
+
       font-family: $League;
+      margin-top: -50px;
+
       tr {
         border-bottom: 2px solid #E6E6E6;
       }
       tr:last-child{
         border: none;
       }
+
+      tr:last-child th:last-child{
+        padding: 40px 0 100px 100px!important;
+      }
+
       tr:last-child th{
         padding-bottom: 100px!important;
       }
@@ -94,9 +102,9 @@ $League: 'League Spartan', sans-serif;
 
       }
 
-      tr:first-child th{
-        padding: 0 150px 40px 0;
-      }
+      //tr:first-child th{
+      //  padding: 0 150px 40px 0!important;
+      //}
 
       tr:nth-child(1n-1) th{
         padding: 40px 150px 40px 0;
