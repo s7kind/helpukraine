@@ -430,7 +430,6 @@ export default function Home() {
                             station falls into his hands.
                         </p>
                     </div>
-                    <div className="video"><script async src="https://telegram.org/js/telegram-widget.js?16" data-telegram-post="verkhovnaradaofukraine/873" data-tme-mode data-width="100%"/></div>
                     <div className={styles.why__big}>
                         <p>With your actions, you can stand up for Ukraine and the very future of the free
                             world.</p>
