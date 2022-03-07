@@ -11,3 +11,13 @@
   }
 }
 
+
+@media (max-width: 960px) {
+  .header {
+    padding: 12px 0;
+
+    &__logo {
+      max-width: 200px;
+    }
+  }
+}
