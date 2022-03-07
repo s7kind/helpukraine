@@ -17,7 +17,7 @@ export default function WhatCan() {
                                     <p>Go to the government website in your country and sign a petition, urging your
                                         government to provide further support to the Ukrainian government.</p>
                                 </div>
-                                <Link href="/">
+                                <Link href="/petition">
                                     <a className="button button__blue">
                                         <span>Sign</span>
                                     </a>
@@ -89,7 +89,7 @@ export default function WhatCan() {
                                         can continue fighting is with your help.</p>
                                     <small>No matter the size, every donation helps.</small>
                                 </div>
-                                <Link href="/">
+                                <Link href="/donation">
                                     <a className="button button__blue">
                                         <span>Make a donation</span>
                                     </a>
