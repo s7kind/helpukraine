@@ -12,21 +12,27 @@ export default function WhatCan() {
 
                         <div className={styles.what__can_petition} id="petition">
                             <div className={styles.box__wrap}>
-                                <h4 className={styles.box__title}>Sign a petition</h4>
+                                <h4 className={styles.box__title}>Keep pressure on world leaders</h4>
                                 <div className={styles.box__info}>
-                                    <p>Go to the government website in your country and sign a petition, urging your
-                                        government to provide further support to the Ukrainian government.</p>
+                                    <p>The Ukrainian government is urgently calling out for three specific things:</p>
+                                    <ul>
+                                        <li>Weapons and non-lethal army provisions</li>
+                                        <li>Increased manpower</li>
+                                        <li>Humanitarian corridors for citizens caught up in fighting</li>
+                                    </ul>
+                                    <p>By showing your elected representatives that you want them to act, you can
+                                        directly contribute to stopping this war.</p>
                                 </div>
                                 <Link href="/petition">
                                     <a className="button button__blue">
-                                        <span>Sign</span>
+                                        <span>Act now</span>
                                     </a>
                                 </Link>
                             </div>
 
                             <img src="/static/petition__image.png" alt="" className={styles.petition__image}/>
                         </div>
-
+                        {/*
                         <div className={styles.what__can_email}>
                             <div className={styles.email__box}>
                                 <p>Letter/email template:</p>
@@ -78,15 +84,23 @@ export default function WhatCan() {
                                 </Link>
                             </div>
                         </div>
+                        */}
 
 
                         <div className={styles.what__can_donate} id="donate">
                             <div className={styles.box__wrap}>
-                                <h4 className={styles.box__title}>Donate</h4>
+                                <h4 className={styles.box__title}>Support Ukrainians in need</h4>
                                 <div className={styles.box__info}>
-                                    <p>Russia has spent ≈US$60 billion a year over the last 5 years on its military,
-                                        as opposed to ≈US$6 billion a year spent in Ukraine. The only way Ukraine
-                                        can continue fighting is with your help.</p>
+                                    <p>
+                                        <span style={{color: '#005BBB'}}>Over 1.7 million people have escaped Ukraine since the start of the war</span>, the
+                                        vast
+                                        majority of them women and children.
+                                    </p>
+                                    <p>Russia has spent ≈US$60 billion a year over the last 5 years on its military, as
+                                        opposed to ≈US$6 billion a year spent by Ukraine.
+                                    </p>
+                                    <p>After WWII we said never again. This your chance to do something in the here and
+                                        now.</p>
                                     <small>No matter the size, every donation helps.</small>
                                 </div>
                                 <Link href="/donation">
