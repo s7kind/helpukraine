@@ -74,10 +74,10 @@ export default function TakeAction() {
                                     pictures about the war. We recommend the cities of Perm, Ufa, Vladivostok and
                                     Arkhangelsk. You can be a bit cheeky with your words too! Here are some good
                                     examples:</p>
-                                <div className={action.take__action_example}>
-                                    <p className={action.example_link}><a href="#">Example Message [EN]</a></p>
-                                    <p className={action.example_link}><a href="#">Example message [RU]</a></p>
-                                </div>
+//                                 <div className={action.take__action_example}>
+//                                     <p className={action.example_link}><a href="#">Example Message [EN]</a></p>
+//                                     <p className={action.example_link}><a href="#">Example message [RU]</a></p>
+//                                 </div>
 
                             </div>
 
@@ -108,16 +108,16 @@ export default function TakeAction() {
                                     product; TV, washing machine, car, get creative! In the product description, explain
                                     what is happening in Ukraine. For the product picture, use one of the photos we have
                                     supplied below (or similar).</p>
-                                <div className={styles.main__section_act__wrapp_btns}>
-                                    <div className={action.take__action_example}>
-                                        <p className={action.example_link}><a href="#">Russian websites</a></p>
-                                        <p className={action.example_link}><a href="#">Guides</a></p>
-                                    </div>
-                                    <div className={action.take__action_example}>
-                                        <p className={action.example_link}><a href="#">Example message [RU]</a></p>
-                                        <p className={action.example_link}><a href="#">Example message [RU]</a></p>
-                                    </div>
-                                </div>
+//                                 <div className={styles.main__section_act__wrapp_btns}>
+//                                     <div className={action.take__action_example}>
+//                                         <p className={action.example_link}><a href="#">Russian websites</a></p>
+//                                         <p className={action.example_link}><a href="#">Guides</a></p>
+//                                     </div>
+//                                     <div className={action.take__action_example}>
+//                                         <p className={action.example_link}><a href="#">Example message [RU]</a></p>
+//                                         <p className={action.example_link}><a href="#">Example message [RU]</a></p>
+//                                     </div>
+//                                 </div>
                             </div>
 
                             <div className={action.take__action_item}>
@@ -168,10 +168,10 @@ export default function TakeAction() {
                                         help. Go to Help Ukraine Online, help fight Putin, and stop the war!
                                     </p>
                                 </div>
-                                <div className={action.take__action_example}>
-                                    <p className={action.example_link}><a href="#">Example Message [EN]</a></p>
-                                    <p className={action.example_link}><a href="#">Example message [RU]</a></p>
-                                </div>
+//                                 <div className={action.take__action_example}>
+//                                     <p className={action.example_link}><a href="#">Example Message [EN]</a></p>
+//                                     <p className={action.example_link}><a href="#">Example message [RU]</a></p>
+//                                 </div>
 
                             </div>
 
@@ -199,10 +199,10 @@ export default function TakeAction() {
                                     app) and write appropriate information in the
                                     profile description. Change your location inside Russia hourly. And use this photo
                                     next to your sexiest pics, it tells Russians the true story!</p>
-                                <div className={action.take__action_example}>
-                                    <p className={action.example_link}><a href="#">Example Message [EN]</a></p>
-                                    <p className={action.example_link}><a href="#">Example message [RU]</a></p>
-                                </div>
+//                                 <div className={action.take__action_example}>
+//                                     <p className={action.example_link}><a href="#">Example Message [EN]</a></p>
+//                                     <p className={action.example_link}><a href="#">Example message [RU]</a></p>
+//                                 </div>
                             </div>
 
                         </div>
