@@ -195,7 +195,7 @@ $League: 'League Spartan', sans-serif;
     height: auto;
     transform: translateY(40px);
     position: relative;
-    right: 60px;
+    left: 120px;
     margin-left: 20px;
   }
 
@@ -215,7 +215,7 @@ $League: 'League Spartan', sans-serif;
   }
 
   .box__info {
-    margin-bottom: 59px;
+    margin-bottom: 39px;
 
     ul {
       margin-bottom: 12px;
@@ -292,6 +292,7 @@ $League: 'League Spartan', sans-serif;
     align-items: center;
     justify-content: space-between;
     margin-top: 90px;
+    flex-direction: row-reverse;
 
     .box__info {
       margin-bottom: 18px;
@@ -302,6 +303,16 @@ $League: 'League Spartan', sans-serif;
 .big__image {
   position: relative;
   padding: 125px 0;
+
+  &_title {
+    font-family: $Mont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 100.5%;
+    color: #212121;
+    margin-bottom: 37px;
+  }
 
   &:after {
     position: absolute;
@@ -370,6 +381,7 @@ $League: 'League Spartan', sans-serif;
 
       p {
         margin-bottom: 14px;
+
         span {
           margin-right: 6px;
         }
@@ -595,7 +607,7 @@ $League: 'League Spartan', sans-serif;
   &__text {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 
     p {
       max-width: 871px;
@@ -604,9 +616,10 @@ $League: 'League Spartan', sans-serif;
       font-weight: 600;
       font-size: 33.2191px;
       line-height: 127%;
-      text-align: left;
       color: #212121;
       margin-right: 20px;
+      text-align: center;
+      margin-bottom: 37px;
     }
   }
 }
@@ -626,12 +639,8 @@ $League: 'League Spartan', sans-serif;
     margin-bottom: 32px;
   }
 
-  &__wrap {
-    max-width: 570px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  &_info {
+    max-width: 390px;
 
     p {
       font-family: $League;
@@ -639,13 +648,48 @@ $League: 'League Spartan', sans-serif;
       font-weight: normal;
       font-size: 20px;
       line-height: 127%;
-      text-align: center;
+      text-align: left;
       color: #212121;
     }
 
     a {
       margin-top: 36px;
     }
+  }
+
+  &_links {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      text-decoration: none;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      span {
+        font-family: $League;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        color: #000000;
+        margin-left: 12px;
+        padding-top: 4px;
+      }
+    }
+  }
+
+  &__wrap {
+    max-width: 796px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
