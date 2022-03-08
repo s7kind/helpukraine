@@ -303,7 +303,7 @@ export default function TakeAction() {
                         <Link
                             href="/trusted-sources">
                             <a className="button button__blue">
-                                <span>Download Orbot</span>
+                                <span>All trusted sources</span>
                             </a>
                         </Link>
                         </span>
