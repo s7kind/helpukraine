@@ -84,7 +84,7 @@ export default function TrustedSources() {
                             <th>Official Twitter account of the President of Ukraine Volodymyr Zelenskyy.
                             </th>
                             <th>
-                                <Link href="https://twitter.com/ZelenskyyUa.">
+                                <Link href="https://twitter.com/ZelenskyyUa">
                                     <a>
                                         <span>Twitter</span>
                                     </a>
