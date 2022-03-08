@@ -13,9 +13,9 @@ export default function Facts() {
                         <ul>
                             <li>
                                 <b>Russian troops are committing war crimes: </b>
-                                <a href="#">Thermobaric bombs</a> have been dropped.
-                                <a href="#">Children have been shot</a> trying to escape with their families.
-                                <a href="#">Six women have died after experiencing sexual violence</a> at the hands
+                                <a href="https://suspilne.media/211514-russia-invades-ukraine-live-updates-suspilne/" target="_blank">Thermobaric bombs</a> have been dropped.
+                                <a target="_blank" href="https://news.sky.com/story/ukraine-invasion-boy-5-dies-in-hospital-days-after-sister-and-parents-were-shot-dead-by-russian-troops-reports-12557343">Children have been shot</a> trying to escape with their families.
+                                <a target="_blank" href="https://www.polskieradio.pl/395/7785/Artykul/2913606,Russian-soldiers-raping-women-in-Ukraine-report">Six women have died after experiencing sexual violence</a> at the hands
                                 of Russian soldiers.
                             </li>
                             <li>
