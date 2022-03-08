@@ -2,9 +2,24 @@ $Mont: 'Montserrat', sans-serif;
 $League: 'League Spartan', sans-serif;
 
 .main {
-  background: #FFFFFF;
+  background: #E5E5E5;
+  &__full_width_container{
+    width: 100%;
+  }
   p{
     font-family: $League;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 127%;
+    color: #212121;
+  }
+  h2, h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 120%;
+    color: #212121;
   }
 
   &__intro {
@@ -49,38 +64,167 @@ $League: 'League Spartan', sans-serif;
     margin: auto;
     padding: 90px 0;
 
-    &__content {
-      margin-bottom: 65px;
+    &__entry_content{
+      width: 70%;
+      text-align: center;
+      margin: 0 auto 100px;
 
       h2 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 120%;
-        /* or 58px */
         margin-bottom: 25px;
-        color: #212121;
 
         b {
           color: #015cbb;
         }
       }
 
-      h3 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 120%;
-        color: #212121;
-      }
 
       p {
+        margin-bottom: 75px;
+      }
+
+      div{
+        display: flex;
+        justify-content: center;
+
+        a{
+          margin: 0 20px 0 0;
+          padding: 14px 30px!important;
+        }
+      }
+
+    }
+
+    &__citizen{
+      background: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+
+      h2{
+        margin: 70px 0 30px 0;
+      }
+
+      p{
+        margin-bottom: 50px;
+      }
+
+      a{
+        margin: 0 auto 50px;
+      }
+    }
+
+    &__fraped{
+      margin-bottom: 90px;
+      p{
+        font-weight: 600;
+        color: #005BBB;
+        margin: 40px 0 30px 0;
+      }
+      ul{ margin-bottom: 30px;
+        li{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 127%;
+          margin-bottom: 15px!important;
+        }
+      }
+      span{
         font-style: normal;
-        font-weight: 450;
+        font-weight: 600;
         font-size: 20px;
         line-height: 127%;
         color: #212121;
-        margin-bottom: 75px;
+      }
+    }
+
+    &__two_blocks{
+      display: flex;
+      margin-bottom: 90px;
+
+      &__first{
+        background: #FFFFFF;
+        width: 50%;
+
+        div{
+          padding: 45px;
+
+          span{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 127%;
+            color: #005BBB;
+          }
+        }
+      }
+      &__second{
+        width: 50%;
+        margin: 80px 0 0 55px;
+
+        h3{
+          margin-bottom: 30px;
+        }
+         p{
+           margin-bottom: 20px;
+         }
+
+        &__media{
+          background: #FFFFFF;
+
+          &__cover{
+            padding: 24px 24px 25px 30px;
+
+            span{
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 127%;
+              color: #005BBB;
+              margin-bottom: 5px;
+            }
+            p{
+              font-weight: 300;
+            }
+            div{
+              display: flex;
+              justify-content: end;
+
+              img{
+
+                padding-right: 20px;
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+    &__content {
+      margin-bottom: 65px;
+
+
+      h2 {
+        margin-bottom: 25px;
+
+        b {
+          color: #015cbb;
+        }
+      }
+
+      p {
+
+        margin: 25px 0 75px;
+
+        span{
+          color: #005BBB;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 127%;
+        }
       }
     }
 
