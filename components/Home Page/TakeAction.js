@@ -27,7 +27,7 @@ const TakeAction = () => {
                                 propaganda, letting ordinary people know what their government is doing in their
                                 name.</p>
                             <div className={styles.take__action_example}>
-                                <p className={styles.example_link}><a href="#">See our detailed guide</a></p>
+                                <p className={styles.example_link}><a href=" https://helpukraineonline.com/take-action">See our detailed guide</a></p>
                             </div>
                             <div className={styles.take__action_social}>
                                 <a href="https://www.google.com/maps/" target="_blank">
@@ -127,7 +127,7 @@ const TakeAction = () => {
                                 </p>
                             </div>
                             <div className={styles.take__action_example}>
-                                <p className={styles.example_link}><a href="#">See our detailed guide</a></p>
+                                <p className={styles.example_link}><a href="https://helpukraineonline.com/take-action">See our detailed guide</a></p>
                             </div>
                             <div className={styles.take__action_social}>
                                 <a href="#">
@@ -303,7 +303,7 @@ const TakeAction = () => {
                                     >How to flag content</a>
                                 </p>
                                 <p className={styles.example_link} style={{display: "flex", alignItems: 'center'}}>
-                                    <a href="https://www.youtube.com/" target="_blank">Watch tutorial</a>
+                                    <a href="https://www.youtube.com/watch?v=8tj7P1nmIKQ" target="_blank">Watch tutorial</a>
                                     <div className={styles.take__action_social}
                                          style={{marginTop: 0, marginLeft: '20px'}}>
                                         <svg width="36" height="25" viewBox="0 0 36 25" fill="none"
