@@ -8,7 +8,6 @@ export default function Facts() {
             </div>
             <section className={styles.big__image}>
                 <div className={styles.container}>
-                    <h2 className={styles.big__image_title}>The Facts</h2>
                     <div className={styles.big__image_box}>
                         <ul>
                             <li>
