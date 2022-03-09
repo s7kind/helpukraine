@@ -1,9 +1,19 @@
 import Head from 'next/head'
+import React, {useState} from "react";
 import Link from 'next/link'
 import styles from '../styles/take-action.module.scss'
 import action from "../styles/main-page.module.scss";
 
+
 export default function TakeAction() {
+    const [popup, setPopup] = useState(false);
+    const [text, setMsg] = useState('');
+
+    const handlePopup = (event ,msg) => {
+        event.preventDefault();
+        setPopup(!popup);
+        setMsg(msg);
+    }
     return (
         <>
             <Head>
@@ -73,7 +83,13 @@ export default function TakeAction() {
                                     write a 5-star review to any tourist attractions or public institutions, posting
                                     pictures about the war. We recommend the cities of Perm, Ufa, Vladivostok and
                                     Arkhangelsk. You can be a bit cheeky with your words too! Here are some good
-                                    examples:</p>                    
+                                    examples:</p>
+                                <div className={action.take__action_example}>
+                                    <p className={action.example_link}>
+                                        <a onClick={(event) => handlePopup(event, 'Russia invaded Ukraine and Russian troops are shooting civilians. Russian soldier activate vacuum bombs and utilize carpet bombing tactics in residential areas. They do not allow green corridors and shell trucks that are carrying humanitarian aid.')} href="#">Example Message [EN]</a>
+                                    </p>
+                                    <p className={action.example_link}><a onClick={(event) => handlePopup(event, 'Россия начала войну в Украине, и российские войска расстреливают мирных жителей. Русские солдаты используют тактику ковровой бомбардировки жилых районах. Они мешают созданию зеленых коридоры и обстреливают грузовики с гуманитарной помощью.')} href="#">Example message [RU]</a></p>
+                                </div>
 
                             </div>
 
@@ -104,6 +120,10 @@ export default function TakeAction() {
                                     product; TV, washing machine, car, get creative! In the product description, explain
                                     what is happening in Ukraine. For the product picture, use one of the photos we have
                                     supplied below (or similar).</p>
+                                <div className={action.take__action_example}>
+                                    <p className={action.example_link}><a onClick={(event) => handlePopup(event, 'Russian soldiers have killed over 350 civilians in the first nine days of the Russian invasion of Ukraine. They used indiscriminate weapons and destroyed the critical infrastructure of the cities. ')} href="#">Example Message [EN]</a></p>
+                                    <p className={action.example_link}><a onClick={(event) => handlePopup(event, 'Российские солдаты убили более 350 мирных жителей за первые девять дней вторжения в Украину. Они применяли неизбирательное оружие и уничтожали фундаментальную инфраструктуру городов.')} href="#">Example message [RU]</a></p>
+                                </div>
                             </div>
 
                             <div className={action.take__action_item}>
@@ -154,6 +174,10 @@ export default function TakeAction() {
                                         help. Go to Help Ukraine Online, help fight Putin, and stop the war!
                                     </p>
                                 </div>
+                                <div className={action.take__action_example}>
+                                    <p className={action.example_link}><a onClick={(event) => handlePopup(event, 'Russian troops are committing crimes against humanity, democracy, and peace in Ukraine. They have killed more than 350 civilians, including women and children in the first 9 days of the war.')} href="#">Example Message [EN]</a></p>
+                                    <p className={action.example_link}><a onClick={(event) => handlePopup(event, 'Российские войска совершают преступления против человечества, демократии и мира. За первые 9 дней войны они убили более 350 мирных жителей, в том числе женщин и детей. ')} href="#">Example message [RU]</a></p>
+                                </div>
 
 
                             </div>
@@ -182,6 +206,10 @@ export default function TakeAction() {
                                     app) and write appropriate information in the
                                     profile description. Change your location inside Russia hourly. And use this photo
                                     next to your sexiest pics, it tells Russians the true story!</p>
+                                <div className={action.take__action_example}>
+                                    <p className={action.example_link}><a onClick={(event) => handlePopup(event, 'Russia invaded Ukraine and Russian troops are shooting civilians. Russian soldiershey activate vacuum bombs and utilize carpet bombimg tactics in residential areas. They do not allow green corridors and shell trucks that are carrying humanitarian aid.')} href="#">Example Message [EN]</a></p>
+                                    <p className={action.example_link}><a onClick={(event) => handlePopup(event, ' Россия начала войну в Украине, и российские войска расстреливают мирных жителей. Русские солдаты используют тактику ковровой бомбардировки жилых районах. Они мешают созданию зеленых коридоры и обстреливают грузовики с гуманитарной помощью.')} href="#">Example message [RU]</a></p>
+                                </div>
 
                             </div>
 
@@ -301,6 +329,27 @@ export default function TakeAction() {
 
             </main>
 
+            <div className={`popup ${popup === true ? 'active' : ''}`} style={{zIndex: '156'}}>
+                <div className="popup__wrap">
+                    <div className="popup__close" onClick={(event) => handlePopup(event)}>
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 6L26 26" stroke="#9E9E9E" strokeWidth="2" strokeLinecap="round"/>
+                            <path d="M26 6L6 26" stroke="#9E9E9E" strokeWidth="2" strokeLinecap="round"/>
+                        </svg>
+                    </div>
+                    <div className="popup__info">
+                        <div className={action.take__action_info}>
+                            <div className={action.take__action_info_box}>
+                                <h2 className={action.take__action_title} style={{textAlign: 'left'}}>Example</h2>
+                                <p className="popup-msg" style={{lineHeight: '1.5'}}>{text}</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </>
     )
 }
