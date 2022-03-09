@@ -140,6 +140,35 @@ ul {
   }
 }
 
+.flex_table {
+  line-height: 1.6;
+  font-weight: 500;
+  &__row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border: initial;
+    }
+  }
+  &__col {
+    //flex: 1;
+    padding: 24px 48px 24px 0;
+    &:first-child {
+      width: 24%;
+    }
+    &:nth-child(2) {
+      width: 60%;
+    }
+    &:nth-child(3) {
+      width: 16%;
+      text-align: right;
+      padding-right: 8px;
+    }
+
+  }
+}
+
 .popup {
   position: fixed;
   top: -200vh;
@@ -196,6 +225,26 @@ ul {
   .button {
     span {
       font-size: 16px;
+    }
+  }
+
+  .flex_table {
+    &__row {
+      flex-wrap: wrap;
+    }
+    &__col {
+      padding: 24px 24px 24px 0;
+      &:first-child {
+        width: auto;
+        font-weight: bold;
+      }
+      &:nth-child(2) {
+        width: auto;
+      }
+      &:nth-child(3) {
+        width: auto;
+      }
+
     }
   }
 }
