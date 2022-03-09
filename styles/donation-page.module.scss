@@ -47,11 +47,11 @@ $League: 'League Spartan', sans-serif;
     display: block;
     width: 80%;
     margin: auto;
-    padding: 100px 0;
+    padding: 0 0 120px 0;
 
 
     &__main_content{
-      margin-bottom: 65px;
+      //margin-bottom: 65px;
 
 
       h2{
@@ -60,7 +60,7 @@ $League: 'League Spartan', sans-serif;
         font-size: 48px;
         line-height: 120%;
         color: #212121;
-        margin-bottom: 25px;
+        margin: 64px 0 24px 0;
       }
       p{
         font-style: normal;
@@ -117,6 +117,28 @@ $League: 'League Spartan', sans-serif;
       tr th:first-child{
         font-weight: 500;
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    &__master_title {
+      div {
+        h1 {
+          font-size: 48px;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    &__container{
+
     }
   }
 }
