@@ -51,32 +51,32 @@ const Slider = () => {
                         // onSwiper={(swiper) => console.log(swiper)}
                         // onSlideChange={() => console.log('slide change')}
                     >
-                        <SwiperSlide><img src="/Memes/34-621e0af4375ff__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/36-621e1b0a88da9__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/274684221_4765568566845780_5105371501214536320_n.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/275167198_1067522053802861_485362728626560820_n.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/275205665_3281718418725779_6504771301076326418_n.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/275231704_507691447602832_3561561330102163721_n.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/275297769_345705480829587_2338693047451281421_n.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/1481536598760173569-png__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/1497950123191640070-png__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/1498274938037415942-png__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/1498547251949588482-png__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/FGAdpUzXMAEQSbN.jpeg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/FHnokYKWQAgSy32.jpeg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/FMXyqfOaIAEjZSL.jpeg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/image (1).png"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/image (2).png"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/image-8-621e0bbeea49b-png__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621de510b10e6__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621def8d32acd__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621df480c9659__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621df84806c53__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dfa6e8d25e__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dfb12b88f4__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dfd1872820__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dffbe2f998__700.jpg"/></SwiperSlide>
-                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621e02c5a414e__700.jpg"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/34-621e0af4375ff__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/36-621e1b0a88da9__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/274684221_4765568566845780_5105371501214536320_n.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/275167198_1067522053802861_485362728626560820_n.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/275205665_3281718418725779_6504771301076326418_n.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/275231704_507691447602832_3561561330102163721_n.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/275297769_345705480829587_2338693047451281421_n.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/1481536598760173569-png__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/1497950123191640070-png__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/1498274938037415942-png__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/1498547251949588482-png__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/FGAdpUzXMAEQSbN.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/FHnokYKWQAgSy32.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/FMXyqfOaIAEjZSL.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/image (1).webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/image (2).webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/image-8-621e0bbeea49b-png__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621de510b10e6__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621def8d32acd__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621df480c9659__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621df84806c53__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dfa6e8d25e__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dfb12b88f4__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dfd1872820__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621dffbe2f998__700.webp"/></SwiperSlide>
+                        <SwiperSlide><img src="/Memes/ukraine-support-memes-621e02c5a414e__700.webp"/></SwiperSlide>
                     </Swiper>
                 </div>
 
