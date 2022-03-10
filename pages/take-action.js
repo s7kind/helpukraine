@@ -220,10 +220,10 @@ export default function TakeAction() {
                 <Slider/>
                 <section className={styles.main__section_photo}>
                     <div className={styles.main__section_photo__wrapp_photo}>
-                        <img src="/take-action/Mask%20group.jpg" alt=""/>
-                        <img src="/take-action/Mask%20group-1.jpg" alt=""/>
-                        <img src="/take-action/Mask%20group-2.jpg" alt=""/>
-                        <img src="/take-action/Mask%20group-3.jpg" alt=""/>
+                        <img src="/take-action/Mask%20group.webp" alt=""/>
+                        <img src="/take-action/Mask%20group-1.webp" alt=""/>
+                        <img src="/take-action/Mask%20group-2.webp" alt=""/>
+                        <img src="/take-action/Mask%20group-3.webp" alt=""/>
                     </div>
                 </section>
 
@@ -241,7 +241,7 @@ export default function TakeAction() {
                                     templates provided below (otherwise they can be easily filtered automatically).</p>
                             </div>
                             <div className={styles.main__section_tips__line__image_right}>
-                                <img src="/take-action/Group%2010.png" alt=""/>
+                                <img src="/take-action/Group%2010.webp" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -249,7 +249,7 @@ export default function TakeAction() {
                     <div className={styles.container_left}>
                         <div className={styles.main__section_tips__line}>
                             <div className={styles.main__section_tips__line__image_left_absolute}>
-                                <img src="/take-action/Photo_group.png" alt=""/>
+                                <img src="/take-action/Photo_group.webp" alt=""/>
                             </div>
                             <div className={styles.main__section_tips__line__text}>
                                 <h3>Use Photos</h3>
@@ -275,7 +275,7 @@ export default function TakeAction() {
                                     account there. Again, consider using a different name.</p>
                             </div>
                             <div className={styles.main__section_tips__line__image_right}>
-                                <img src="/take-action/Group 9.png" alt=""/>
+                                <img src="/take-action/Group 9.webp" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -283,7 +283,7 @@ export default function TakeAction() {
                     <div className={styles.container}>
                         <div className={styles.main__section_tips__line}>
                             <div className={styles.main__section_tips__line__image_left}>
-                                <img src="/take-action/Group 8.png" alt=""/>
+                                <img src="/take-action/Group 8.webp" alt=""/>
                             </div>
                             <div className={styles.main__section_tips__line__text}>
                                 <h3>Use Orbot</h3>
@@ -321,10 +321,10 @@ export default function TakeAction() {
 
                 <section>
                     <div className={styles.main__section_photo__wrapp_photo}>
-                        <img src="/take-action/Mask%20group(1).jpg" alt=""/>
-                        <img src="/take-action/Mask%20group-1(1).jpg" alt=""/>
-                        <img src="/take-action/Mask%20group-2(1).jpg" alt=""/>
-                        <img src="/take-action/Mask%20group-3(1).jpg" alt=""/>
+                        <img src="/take-action/Mask%20group(1).webp" alt=""/>
+                        <img src="/take-action/Mask%20group-1(1).webp" alt=""/>
+                        <img src="/take-action/Mask%20group-2(1).webp" alt=""/>
+                        <img src="/take-action/Mask%20group-3(1).webp" alt=""/>
                     </div>
                 </section>
 
