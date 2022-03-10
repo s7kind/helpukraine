@@ -21,7 +21,7 @@ const More = () => {
                                className="button button__blue"><span>Join the Ukrainian IT Army</span></a>
                         </div>
                         <div className={styles.more__item_image}>
-                            <img src="/static/more__it.png" alt="Help Ukraine"/>
+                            <img src="/static/more__it.webp" alt="Help Ukraine"/>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ const More = () => {
                             <a href="https://fightforua.org/" target="_blank" className="button button__blue"><span>Join the Ukrainian foreign legion</span></a>
                         </div>
                         <div className={styles.more__item_image}>
-                            <img src="/static/more__legion.png" alt="Help Ukraine"/>
+                            <img src="/static/more__legion.webp" alt="Help Ukraine"/>
                         </div>
                     </div>
                 </div>

@@ -10,11 +10,11 @@ export default function Hero() {
             {/* HERO */}
             <ParallaxBanner
                 layers={[
-                    {image: '/static/hero__bg.png', speed: -15},
+                    {image: '/static/hero__bg.webp', speed: -15},
                     {
                         speed: -15,
                         children: (
-                            <img src="/static/hero__image.png" className={styles.hero__image} alt="Help Ukraine"/>
+                            <img src="/static/hero__image.webp" className={styles.hero__image} alt="Help Ukraine"/>
                         ),
                     },
                 ]}

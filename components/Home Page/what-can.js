@@ -30,7 +30,7 @@ export default function WhatCan() {
                                 </Link>
                             </div>
 
-                            <img src="/static/petition__image.png" alt="" className={styles.petition__image}/>
+                            <img src="/static/petition__image.webp" alt="" className={styles.petition__image}/>
                         </div>
                         {/*
                         <div className={styles.what__can_email}>
@@ -110,7 +110,7 @@ export default function WhatCan() {
                                 </Link>
                             </div>
 
-                            <img src="/static/donate__image.png" alt="" className={styles.donate__image}/>
+                            <img src="/static/donate__image.webp" alt="" className={styles.donate__image}/>
 
                         </div>
                     </div>
