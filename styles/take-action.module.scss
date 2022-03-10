@@ -2,31 +2,32 @@ $Mont: 'Montserrat', sans-serif;
 $League: 'League Spartan', sans-serif;
 
 $breakpoint-tablet: 768px;
-.swiper.swiper-initialized.swiper-horizontal{
-  position: inherit!important;
+.swiper.swiper-initialized.swiper-horizontal {
+  position: inherit !important;
 }
-.slider{
+
+.slider {
   padding-bottom: 40px;
   text-align: center;
 
 
-
-  img{
+  img {
     width: 229px;
     height: 229px;
   }
 }
+
 .container {
   width: 80%;
   margin: 0 auto;
   position: relative;
   z-index: 111;
 
-  &__carousel_block{
+  &__carousel_block {
     background: #ffffff;
     position: relative;
 
-    h3{
+    h3 {
       font-style: normal;
       font-weight: 500;
       font-size: 32px;
@@ -34,7 +35,8 @@ $breakpoint-tablet: 768px;
       color: #212121;
       margin-bottom: 30px;
     }
-    p{
+
+    p {
       font-family: $League;
       font-style: normal;
       font-weight: normal;
@@ -43,7 +45,7 @@ $breakpoint-tablet: 768px;
       color: #212121;
     }
 
-    &__text{
+    &__text {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -53,10 +55,11 @@ $breakpoint-tablet: 768px;
       margin: auto;
       padding: 40px 0;
     }
+
     @media (max-width: 900px) {
-      .container{
-        &__carousel_block{
-          &__text{
+      .container {
+        &__carousel_block {
+          &__text {
             width: 80%;
           }
         }
@@ -146,7 +149,6 @@ $breakpoint-tablet: 768px;
   &__section_act {
     padding-top: 80px;
     margin-bottom: 20px;
-
 
 
     h3 {
@@ -246,7 +248,8 @@ $breakpoint-tablet: 768px;
         width: 50%;
         display: flex;
         justify-content: flex-end;
-        img{
+
+        img {
           max-width: 100%;
         }
       }
@@ -255,7 +258,8 @@ $breakpoint-tablet: 768px;
         width: 50%;
         display: flex;
         justify-content: flex-start;
-        img{
+
+        img {
           max-width: 100%;
         }
       }
@@ -264,7 +268,8 @@ $breakpoint-tablet: 768px;
         width: 60%;
         display: flex;
         justify-content: flex-start;
-        img{
+
+        img {
           width: 90%;
           height: auto;
         }
@@ -307,7 +312,7 @@ $breakpoint-tablet: 768px;
 }
 
 @media (max-width: $breakpoint-tablet) {
-  .container_left{
+  .container_left {
     margin: 0 auto;
     width: 80%;
     padding-top: 50px;
@@ -324,19 +329,23 @@ $breakpoint-tablet: 768px;
 
       &__line {
         flex-direction: column;
-        &__text{
+
+        &__text {
           width: 100%;
           order: 1;
-          h3{
+
+          h3 {
             font-size: 28px;
           }
         }
+
         &__image_right, &__image_left_absolute, &__image_left {
           width: 100%;
           justify-content: center;
           order: 2;
           padding-top: 15px;
-          img{
+
+          img {
             width: 100%;
             height: auto;
             padding-left: 25%;

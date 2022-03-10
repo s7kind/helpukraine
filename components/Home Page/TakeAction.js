@@ -27,7 +27,7 @@ const TakeAction = () => {
                                 propaganda, letting ordinary people know what their government is doing in their
                                 name.</p>
                             <div className={styles.take__action_example}>
-                                <p className={styles.example_link}><a href=" https://helpukraineonline.com/take-action">See our detailed guide</a></p>
+                                <p className={styles.example_link}><a href="/take-action">See our detailed guide</a></p>
                             </div>
                             <div className={styles.take__action_social}>
                                 <a href="https://www.google.com/maps/" target="_blank">
@@ -127,7 +127,7 @@ const TakeAction = () => {
                                 </p>
                             </div>
                             <div className={styles.take__action_example}>
-                                <p className={styles.example_link}><a href="https://helpukraineonline.com/take-action">See our detailed guide</a></p>
+                                <p className={styles.example_link}><a href="/take-action">See our detailed guide</a></p>
                             </div>
                             <div className={styles.take__action_social}>
                                 <a href="#">
