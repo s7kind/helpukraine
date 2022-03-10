@@ -2,12 +2,67 @@ $Mont: 'Montserrat', sans-serif;
 $League: 'League Spartan', sans-serif;
 
 $breakpoint-tablet: 768px;
+.swiper.swiper-initialized.swiper-horizontal{
+  position: inherit!important;
+}
+.slider{
+  padding-bottom: 40px;
+  text-align: center;
 
+
+
+  img{
+    width: 229px;
+    height: 229px;
+  }
+}
 .container {
   width: 80%;
   margin: 0 auto;
   position: relative;
   z-index: 111;
+
+  &__carousel_block{
+    background: #ffffff;
+    position: relative;
+
+    h3{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 116%;
+      color: #212121;
+      margin-bottom: 30px;
+    }
+    p{
+      font-family: $League;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 127%;
+      color: #212121;
+    }
+
+    &__text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      width: 50%;
+      margin: auto;
+      padding: 40px 0;
+    }
+    @media (max-width: 900px) {
+      .container{
+        &__carousel_block{
+          &__text{
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
 }
 
 .container_left {
@@ -90,6 +145,8 @@ $breakpoint-tablet: 768px;
 
   &__section_act {
     padding-top: 80px;
+    margin-bottom: 20px;
+
 
 
     h3 {
