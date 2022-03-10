@@ -27,7 +27,7 @@ const Why = () => {
                        id='video'
                        controls="controls"
                        preload='none'
-                       poster='/static/poster.png'
+                       poster='/static/poster.webp'
                 >
                     <source id='mp4' src="/static/video.mp4" type='video/mp4'/>
                     <source id='webm' src="/static/video.webm" type='video/webm'/>

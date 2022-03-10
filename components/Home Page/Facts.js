@@ -50,7 +50,7 @@ export default function Facts() {
                     </div>
                 </div>
 
-                <img src="/static/big__image_bg.png" alt="" className={styles.big__image_bg}/>
+                <img src="/static/big__image_bg.webp" alt="" className={styles.big__image_bg}/>
             </section>
         </>
     )
