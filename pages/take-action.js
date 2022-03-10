@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import Link from 'next/link'
 import styles from '../styles/take-action.module.scss'
 import action from "../styles/main-page.module.scss";
+import Slider from "../components/Take action/Slider";
 
 
 export default function TakeAction() {
@@ -216,7 +217,7 @@ export default function TakeAction() {
                         </div>
                     </div>
                 </section>
-
+                <Slider/>
                 <section className={styles.main__section_photo}>
                     <div className={styles.main__section_photo__wrapp_photo}>
                         <img src="/take-action/Mask%20group.jpg" alt=""/>
