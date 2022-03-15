@@ -15,10 +15,25 @@ export default function TakeAction() {
         setPopup(!popup);
         setMsg(msg);
     }
+
+    const meta = {
+        "title": "Take action! Stop war!",
+        "description": "Ukrainians are dying. Stand with Ukraine — every action helps. Stop Russian violence now!",
+        "og:image": "https://drive.google.com/file/d/1-K_rt3sDVs8qqW8HJl8Oy0aSsctLV0G2/view"
+    }
+
+
     return (
         <>
             <Head>
-                <title>Help Ukraine Online - Take Action</title>
+                <title>{meta.title}</title>
+                <meta name="description" content={meta.description}/>
+                <meta property="og:title" content={meta.title}/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:image" content={meta["og:image"]}/>
+                <meta property="og:url" content="https://helpukraineonline.com/take-action"/>
+                <meta property="og:description" content={meta.description}/>
+                <meta property="og:site_name" content="Help Ukraine Online"/>
             </Head>
 
             <main className={styles.main}>

@@ -4,10 +4,23 @@ import pet_styles from '../styles/petition-page.module.scss'
 import React from "react";
 
 export default function TrustedSources() {
+    const meta = {
+        "title": "Read about Ukraine in trusted sources",
+        "description": "Ukrainians are dying. Keep track of the current situation in Ukraine from trusted and verified sources. Avoid fake information. Stop Russian violence now!",
+        "og:image": "https://files.slack.com/files-pri/T685AV266-F035QC3F0Q5/huo_logo.png"
+    }
+
     return (
         <>
             <Head>
-                <title>Help Ukraine Online - Trusted sources</title>
+                <title>{meta.title}</title>
+                <meta name="description" content={meta.description}/>
+                <meta property="og:title" content={meta.title}/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:image" content={meta["og:image"]}/>
+                <meta property="og:url" content="https://helpukraineonline.com/trusted-sources"/>
+                <meta property="og:description" content={meta.description}/>
+                <meta property="og:site_name" content="Help Ukraine Online"/>
             </Head>
 
             <main className={pet_styles.main}>
