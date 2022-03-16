@@ -3,10 +3,12 @@ $League: 'League Spartan', sans-serif;
 
 .main {
   background: #E5E5E5;
-  &__full_width_container{
+
+  &__full_width_container {
     width: 100%;
   }
-  p{
+
+  p {
     font-family: $League;
     font-style: normal;
     font-weight: normal;
@@ -14,7 +16,8 @@ $League: 'League Spartan', sans-serif;
     line-height: 127%;
     color: #212121;
   }
-  h2, h3{
+
+  h2, h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -29,18 +32,21 @@ $League: 'League Spartan', sans-serif;
     overflow: hidden;
     left: 0;
     background: url("../public/petition/background__image.webp") no-repeat center top;
+
     h1 {
       font-style: normal;
       font-weight: bold;
       font-size: 96px;
       color: #FFFFFF;
     }
+
     div {
       position: relative;
       text-align: left;
       display: block;
       width: 80%;
       margin: 100px auto;
+
       h1 {
         margin: 100px 0 40px;
         line-height: 100.5%;
@@ -63,7 +69,7 @@ $League: 'League Spartan', sans-serif;
     margin: auto;
     padding: 90px 0;
 
-    &__entry_content{
+    &__entry_content {
       width: 70%;
       text-align: center;
       margin: 0 auto 100px;
@@ -81,19 +87,18 @@ $League: 'League Spartan', sans-serif;
         margin-bottom: 75px;
       }
 
-      div{
+      div {
         display: flex;
         justify-content: center;
 
-        a{
+        a {
           margin: 0 20px 0 0;
-          padding: 14px 30px!important;
+          padding: 14px 30px !important;
         }
       }
-
     }
 
-    &__citizen{
+    &__citizen {
       background: #FFFFFF;
       display: flex;
       justify-content: center;
@@ -101,36 +106,41 @@ $League: 'League Spartan', sans-serif;
       text-align: center;
       padding: 24px;
 
-      h2{
+      h2 {
         margin: 70px 0 30px 0;
       }
 
-      p{
+      p {
         margin-bottom: 50px;
       }
 
-      a{
+      a {
         margin: 0 auto 50px;
       }
     }
 
-    &__fraped{
+    &__fraped {
       margin-bottom: 90px;
-      p{
+
+      p {
         font-weight: 600;
         color: #005BBB;
         margin: 40px 0 30px 0;
       }
-      ul{ margin-bottom: 30px;
-        li{
+
+      ul {
+        margin-bottom: 30px;
+
+        li {
           font-style: normal;
           font-weight: normal;
           font-size: 20px;
           line-height: 127%;
-          margin-bottom: 15px!important;
+          margin-bottom: 15px !important;
         }
       }
-      span{
+
+      span {
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -139,18 +149,17 @@ $League: 'League Spartan', sans-serif;
       }
     }
 
-    &__two_blocks{
+    &__two_blocks {
       display: flex;
       margin-bottom: 90px;
 
-      &__first{
+      &__first {
         background: #FFFFFF;
         width: 50%;
 
-        div{
+        div {
           padding: 45px;
-
-          span{
+          span {
             font-style: normal;
             font-weight: normal;
             font-size: 18px;
@@ -159,24 +168,26 @@ $League: 'League Spartan', sans-serif;
           }
         }
       }
-      &__second{
+
+      &__second {
         width: 50%;
         margin: 80px 0 0 55px;
 
-        h3{
+        h3 {
           margin-bottom: 30px;
         }
-         p{
-           margin-bottom: 20px;
-         }
 
-        &__media{
+        p {
+          margin-bottom: 20px;
+        }
+
+        &__media {
           background: #FFFFFF;
 
-          &__cover{
+          &__cover {
             padding: 24px 24px 25px 30px;
 
-            span{
+            span {
               font-style: normal;
               font-weight: 500;
               font-size: 20px;
@@ -184,15 +195,16 @@ $League: 'League Spartan', sans-serif;
               color: #005BBB;
               margin-bottom: 5px;
             }
-            p{
+
+            p {
               font-weight: 300;
             }
-            div{
+
+            div {
               display: flex;
               justify-content: end;
 
-              img{
-
+              img {
                 padding-right: 20px;
               }
             }
@@ -215,10 +227,9 @@ $League: 'League Spartan', sans-serif;
       }
 
       p {
-
         margin: 25px 0 75px;
 
-        span{
+        span {
           color: #005BBB;
           font-style: normal;
           font-weight: 600;
@@ -229,7 +240,6 @@ $League: 'League Spartan', sans-serif;
     }
 
     table {
-
       font-family: $League;
       margin-top: -50px;
 
@@ -241,8 +251,8 @@ $League: 'League Spartan', sans-serif;
         border: none;
       }
 
-      tr:last-child th:last-child{
-        padding: 40px 0 100px 100px!important;
+      tr:last-child th:last-child {
+        padding: 40px 0 100px 100px !important;
       }
 
       tr:last-child th {
@@ -258,12 +268,7 @@ $League: 'League Spartan', sans-serif;
         line-height: 127%;
         color: #212121;
         vertical-align: middle;
-
       }
-
-      //tr:first-child th {
-      //  padding: 0 150px 40px 0!important;
-      //}
 
       tr:nth-child(1n-1) th {
         padding: 40px 150px 40px 0;
@@ -279,6 +284,7 @@ $League: 'League Spartan', sans-serif;
       }
     }
   }
+
   @media (max-width: 768px) {
     h1 {
       font-size: 48px;
@@ -290,25 +296,30 @@ $League: 'League Spartan', sans-serif;
       font-size: 24px;
     }
     &__container {
-      padding:24px 0;
-      &__entry_content{
+      padding: 24px 0;
+
+      &__entry_content {
         width: 100%;
+
         div {
           flex-wrap: wrap;
+
           a {
             margin-bottom: 24px;
           }
         }
       }
-      &__two_blocks{
+
+      &__two_blocks {
         flex-wrap: wrap;
-        &__first{
+
+        &__first {
           width: 100%;
 
-          div{
+          div {
             padding: 24px;
 
-            span{
+            span {
               font-style: normal;
               font-weight: normal;
               font-size: 18px;
@@ -317,14 +328,17 @@ $League: 'League Spartan', sans-serif;
             }
           }
         }
+
         &__second {
           width: 100%;
-          margin: 0px;
+          margin: 0;
+
           h3 {
-            margin-top:24px;
+            margin-top: 24px;
           }
         }
       }
     }
   }
 }
+
