@@ -264,3 +264,13 @@ ul {
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 0 !important;
 }
+
+.main__app {
+  padding-top: 110px;
+}
+
+@media (max-width: 960px) {
+  .main__app {
+    padding-top: 60px;
+  }
+}
