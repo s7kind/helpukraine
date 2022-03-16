@@ -55,17 +55,17 @@ export default function Donation() {
                                 addresses have been set up by the Ukrainian Ministry of Digital Transformation.
                             </div>
                             <div className="flex_table__col">
-                                <Link href="https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FUkraine%2Fstatus%2F1497594592438497282&widget=Tweet">
+                                <Link href="https://twitter.com/Ukraine/status/1497594592438497282">
                                     <a target="_blank">
                                         <span>BTC</span>
                                     </a>
                                 </Link><br/>
-                                <Link href="https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FUkraine%2Fstatus%2F1497594592438497282&widget=Tweet">
+                                <Link href="https://twitter.com/Ukraine/status/1497594592438497282">
                                     <a target="_blank">
                                         <span>ETH</span>
                                     </a>
                                 </Link><br/>
-                                <Link href="https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FUkraine%2Fstatus%2F1497594592438497282&widget=Tweet">
+                                <Link href="https://twitter.com/Ukraine/status/1497594592438497282">
                                     <a target="_blank">
                                         <span>USDT</span>
                                     </a>

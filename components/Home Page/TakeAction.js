@@ -22,8 +22,8 @@ const TakeAction = () => {
                     </div>
                     <div className={styles.take__action_box}>
                         <div className={styles.take__action_item}>
-                            <h5>Share a message with your friends!</h5>
-                            <p>Through Google Maps, Trip Advisor, and Russian sales websites, you can reach through the
+                            <h5>Break the Russian Information Blockade!</h5>
+                            <p>Through Google Maps, Trip Advisor, and text messages to Russians, you can reach through the
                                 propaganda, letting ordinary people know what their government is doing in their
                                 name.</p>
                             <div className={styles.take__action_example}>
@@ -130,7 +130,7 @@ const TakeAction = () => {
                                 <p className={styles.example_link}><a href="/take-action">See our detailed guide</a></p>
                             </div>
                             <div className={styles.take__action_social}>
-                                <a href="#">
+                                <span>
                                     <svg width="30" height="25" viewBox="0 0 30 25" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_120_396)">
@@ -145,8 +145,8 @@ const TakeAction = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                </a>
-                                <a href="#">
+                                </span>
+                                <span>
                                     <svg width="28" height="29" viewBox="0 0 28 29" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_120_398)">
@@ -182,8 +182,8 @@ const TakeAction = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                </a>
-                                <a href="#">
+                                </span>
+                                <span>
                                     <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_120_402)">
@@ -198,7 +198,7 @@ const TakeAction = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                </a>
+                                </span>
                             </div>
                         </div>
 
@@ -219,7 +219,7 @@ const TakeAction = () => {
                                     Influencers</a></p>
                             </div>
                             <div className={styles.take__action_social}>
-                                <a href="#">
+                                <span>
                                     <svg width="30" height="25" viewBox="0 0 30 25" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_120_396)">
@@ -234,8 +234,8 @@ const TakeAction = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                </a>
-                                <a href="#">
+                                </span>
+                                <span>
                                     <svg width="28" height="29" viewBox="0 0 28 29" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_120_398)">
@@ -271,8 +271,8 @@ const TakeAction = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                </a>
-                                <a href="#">
+                                </span>
+                                <span>
                                     <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_120_402)">
@@ -287,7 +287,7 @@ const TakeAction = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                </a>
+                                </span>
                             </div>
                         </div>
 
