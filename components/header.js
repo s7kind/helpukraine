@@ -1,10 +1,24 @@
 import styles from '../styles/header.module.scss'
 import Link from "next/link";
 import {useEffect, useState} from "react";
+import {useRouter} from "next/router";
+
 
 export default function Header() {
+    const router = useRouter();
 
     const [scrollY, setScrollY] = useState(0);
+    const [menuActive, setMenuActive] = useState(false)
+
+    const menuHandle = () => {
+        setMenuActive(!menuActive)
+    }
+
+    useEffect(() => {
+        if (menuActive) {
+            setMenuActive(!menuActive);
+        }
+    }, [router.asPath]);
 
     const scrollEvent = () => {
         setScrollY(window.pageYOffset);
@@ -28,7 +42,12 @@ export default function Header() {
                 <Link href="/">
                     <a><img className={styles.header__logo} src="/static/logo.svg" alt="Help Ukraine Online"/></a>
                 </Link>
-                <div className={styles.header__menu}>
+                <div className={`${styles.header__menu} ${menuActive ? styles.header__menu__active : ''}`}>
+                    <div className={styles.header__menu_burger} onClick={() => menuHandle()}>
+                        <i/>
+                        <i/>
+                        <i/>
+                    </div>
                     <div className={styles.header__menu_links}>
                         <Link href={'/'}>
                             <a><span>Home</span></a>
