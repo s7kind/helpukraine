@@ -67,7 +67,7 @@ export default function Header() {
                     </div>
 
                     <a href="mailto:contact@helpukraineonline.com"
-                       className={styles.menu_contact}><span>Contact us</span></a>
+                       className={`${styles.menu_contact}`}><span>Contact us</span></a>
                 </div>
             </div>
         </header>
