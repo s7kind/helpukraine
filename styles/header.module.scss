@@ -64,6 +64,8 @@
     }
 
     &_links {
+      display: flex;
+
       a {
         text-decoration: none;
         margin: 0 16px;
