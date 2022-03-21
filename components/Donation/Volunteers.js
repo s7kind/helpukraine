@@ -24,9 +24,8 @@ const Volunteers = () => {
                     </Link></div>
                 </div>
                 <div className="flex_table__row">
-                    <div className="flex_table__col">Direct help to special forces "AZOV"</div>
-                    <div className="flex_table__col">Support of 205th battalion, 112th brigade, 3rd company of special
-                        battalion “AZOV” - those who protect right now people in Kyiv and Mariupol.
+                    <div className="flex_table__col">Direct help to special forces</div>
+                    <div className="flex_table__col">Support of 205th battalion, 112th brigade, 3rd company - those who protect right now people in Kyiv and Mariupol.
                         Equipment, weapons and medicines + partly for food, but which is canned and packaged, generally
                         suitable for the red zone.
                     </div>
