@@ -600,9 +600,34 @@ $League: 'League Spartan', sans-serif;
     }
   }
 }
-
+@media (max-width: 682px) {
+  .banner {
+    &__videoBtn{
+      max-width: 393px!important;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    &__videoBtn{
+      max-width: 365px !important;
+    }
+  }
+}
 .banner {
   padding: 89px 0 100px;
+
+  &__videoBtn{
+    width:100%;
+    max-width: 660px;
+
+    a{
+      max-width: inherit;
+      margin-right: 20px!important;
+    }
+  }
+
+
 
   &__text {
     display: flex;
