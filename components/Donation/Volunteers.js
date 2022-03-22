@@ -416,6 +416,19 @@ const Volunteers = () => {
                         </Link>
                     </div>
                 </div>
+                <div className="flex_table__row">
+                    <div className="flex_table__col">Ukrainian Association of Medical Tourism – UAMT</div>
+                    <div className="flex_table__col">Officially registered non-profit association in Ukraine, which has
+                        been operating since 2013 and helping ukrainians with medical aids, humanitarian cargos etc.
+                    </div>
+                    <div className="flex_table__col">
+                        <Link href="https://uamt.com.ua/en/help-ukraine.html">
+                            <a target="_blank">
+                                <span>Link</span>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </>
     );
