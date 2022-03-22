@@ -3,6 +3,7 @@ import styles from "../../styles/main-page.module.scss";
 import Link from "next/link";
 import {useState} from "react";
 import action from "../../styles/main-page.module.scss";
+import ReactPlayer from 'react-player/youtube'
 
 export default function Hero() {
 
@@ -13,8 +14,30 @@ export default function Hero() {
         setPopup(!popup)
     }
 
+    const Player = (props) => {
+        const videoURL = "https://www.youtube.com/watch?v=" + props.videoId
+        return (
+            <ReactPlayer
+                url={videoURL}
+                playing={props.play}
+                width='100%'
+                height='100%'
+                config={{
+                    youtube: {
+                        playerVars: {
+                            controls: 1
+                        }
+                    }
+                }}
+            />
+        )
+    }
+
+
     return (
+
         <>
+
             {/* HERO */}
             <ParallaxBanner
                 layers={[
@@ -59,7 +82,7 @@ export default function Hero() {
                 </div>
             </ParallaxBanner>
             <div className={`popup ${popup === true ? 'active' : ''}`} style={{zIndex: '156'}}>
-                <div className="popup__wrap">
+                <div className="popup__wrap video__wrap">
                     <div className="popup__close" onClick={(event) => handlePopup(event)}>
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 6L26 26" stroke="#9E9E9E" strokeWidth="2" strokeLinecap="round"/>
@@ -67,18 +90,16 @@ export default function Hero() {
                         </svg>
                     </div>
                     <div className="popup__info">
-                        <div className={action.take__action_info}>
-                            <div className={action.take__action_info_box}>
-                                <h2 className={action.take__action_title} style={{textAlign: 'center'}}>Video</h2>
-                                <p className="popup-msg" style={{lineHeight: '1.5'}}>
-
-                                </p>
+                        <div className={action.take__action_info} style={{justifyContent: 'center'}}>
+                            <div className={action.take__action_info_box} style={{alignItems: 'unset'}}>
+                                {/*<h2 className={action.take__action_title} style={{textAlign: 'center'}}>&#128249;&nbsp;Video&nbsp;&#128249;</h2>*/}
+                                <div className="popup-video" style={{width: '800px', height: '400px'}}>
+                                    <Player videoId={"QpqbiZvoPBI&t"} play={popup} />
+                                </div>
                             </div>
 
                         </div>
                     </div>
-
-
                 </div>
             </div>
             {/* END HERO */}

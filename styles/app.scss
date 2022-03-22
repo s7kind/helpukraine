@@ -274,3 +274,17 @@ ul {
     padding-top: 60px;
   }
 }
+
+
+
+@media (max-width: 900px) {
+  .popup-video{
+    width: 90%!important;
+    margin: auto;
+    height: 50vw!important;
+    max-height: 400px;
+  }
+  .video__wrap{
+    padding: 70px 0!important;
+  }
+}
