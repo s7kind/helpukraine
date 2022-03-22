@@ -604,6 +604,18 @@ $League: 'League Spartan', sans-serif;
 .banner {
   padding: 89px 0 100px;
 
+  &__videoBtn{
+    width:100%;
+    max-width: 660px;
+
+    a{
+      max-width: inherit;
+      margin-right: 20px!important;
+    }
+  }
+
+
+
   &__text {
     display: flex;
     align-items: center;
@@ -1027,6 +1039,29 @@ $League: 'League Spartan', sans-serif;
         width: 70px;
         height: auto;
       }
+    }
+  }
+}
+@media (max-width: 691.5px) {
+  .banner {
+    &__videoBtn{
+      max-width: 393px!important;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    &__videoBtn{
+      max-width: 365px !important;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .take__action{
+    &_info{
+      display: block!important;
     }
   }
 }
