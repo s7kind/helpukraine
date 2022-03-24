@@ -54,7 +54,7 @@ export default function Hero() {
                 <div className="container">
                     <div className={styles.hero__info}>
                         <h1>Stop Putin Stop War</h1>
-                        <p>On February 24, Russia started war with Ukraine. Each passing day brings more death and
+                        <p>On February 24, Russia has launched an all-out invasion of Ukraine by land, air and sea. Each passing day brings more death and
                             destruction, with an increasing threat to the world as we know it. With your help, we
                             can stop Putin, end suffering, and avoid global catastrophe.</p>
                         <div className={styles.hero__buttons}>
