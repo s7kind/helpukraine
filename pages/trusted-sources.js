@@ -38,13 +38,6 @@ export default function TrustedSources() {
                     </div>
                     <div className="flex_table">
                         <div className="flex_table__row">
-                            <div className="flex_table__col"></div>
-                            <div className="flex_table__col"></div>
-                            <div className="flex_table__col"></div>
-                        </div>
-                    </div>
-                    <div className="flex_table">
-                        <div className="flex_table__row">
                             <div className="flex_table__col">Ukraine NOW</div>
                             <div className="flex_table__col">Official Ukrainian media updates.</div>
                             <div className="flex_table__col">
@@ -240,6 +233,24 @@ export default function TrustedSources() {
                                         <span>Link</span>
                                     </a>
                                 </Link>
+                            </div>
+                        </div>
+                        <div className="flex_table">
+                            <div className="flex_table__row">
+                                <div className="flex_table__col">Svidomi</div>
+                                <div className="flex_table__col">News, analysis and human stories about Russia’s war against Ukraine.</div>
+                                <div className="flex_table__col">
+                                    <Link href="https://twitter.com/svidomi_en/">
+                                        <a>
+                                            <span>Twitter</span>
+                                        </a>
+                                    </Link><br/>
+                                    <Link href="https://www.instagram.com/svidomi_eng/">
+                                        <a>
+                                            <span>Instagram</span>
+                                        </a>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
