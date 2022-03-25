@@ -35,18 +35,6 @@ const Human = () => {
                     </Link></div>
                 </div>
                 <div className="flex_table__row">
-                    <div className="flex_table__col">Ukrainian Red Cross</div>
-                    <div className="flex_table__col">Ukraine’s Ministry of Health together with the Red Cross has opened a special account to
-                        meet the emergency needs of health care institutions, some of which have been targeted
-                        by Russian forces.
-                    </div>
-                    <div className="flex_table__col"><Link href="https://donate.redcrossredcrescent.org/ua/donate/~my-donation?_cv=1">
-                        <a target="_blank">
-                            <span>Link</span>
-                        </a>
-                    </Link></div>
-                </div>
-                <div className="flex_table__row">
                     <div className="flex_table__col">Palianytsia</div>
                     <div className="flex_table__col">Palianytsia helps refugees and war victims.
                         They collect humanitarian aid, food, medication, and provide humanitarian help, as well
