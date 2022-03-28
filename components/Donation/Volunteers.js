@@ -429,6 +429,18 @@ const Volunteers = () => {
                         </Link>
                     </div>
                 </div>
+                <div className="flex_table__row">
+                    <div className="flex_table__col">The Humanitarian Centre Mizhhiria</div>
+                    <div className="flex_table__col">This centre arranges the collection and delivery of humanitarian aid to Ukraine.
+                    </div>
+                    <div className="flex_table__col">
+                        <Link href="https://www.humanitarian-mizhhirya.com/">
+                            <a target="_blank">
+                                <span>Website</span>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </>
     );
