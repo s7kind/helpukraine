@@ -2,6 +2,7 @@ import styles from '../styles/header.module.scss'
 import Link from "next/link";
 import {useEffect, useState} from "react";
 import {useRouter} from "next/router";
+import RussianWarCrimes from "../pages/russian-war-crimes";
 
 
 export default function Header() {
@@ -63,6 +64,9 @@ export default function Header() {
                         </Link>
                         <Link href={'/trusted-sources'}>
                             <a><span>Trusted News</span></a>
+                        </Link>
+                        <Link href={'/russian-war-crimes'}>
+                            <a><span>Russian War Crimes</span></a>
                         </Link>
                     </div>
 
