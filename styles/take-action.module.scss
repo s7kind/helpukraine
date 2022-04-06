@@ -23,6 +23,11 @@ $breakpoint-tablet: 768px;
   position: relative;
   z-index: 111;
 
+  &__title_descr{
+    padding-bottom: 71px!important;
+    font-size: 40px!important;
+  }
+
   &__carousel_block {
     background: #ffffff;
     position: relative;
@@ -312,6 +317,12 @@ $breakpoint-tablet: 768px;
 }
 
 @media (max-width: $breakpoint-tablet) {
+  .container{
+    &__title_descr{
+      font-size: 12px!important;
+    }
+  }
+
   .container_left {
     margin: 0 auto;
     width: 80%;
