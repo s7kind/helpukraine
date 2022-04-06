@@ -359,8 +359,33 @@ $League: 'League Spartan', sans-serif;
   }
 }
 
+@media (max-width: 515px) {
+  .take__action {
+    &_buttons{
+      flex-wrap: wrap;
+      button{
+        margin-right: 0!important;
+      }
+      a{
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
 .take__action {
   padding: 105px 0 118px;
+
+  &_buttons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    button, a{
+      max-height: 53px;
+      border: unset;
+    }
+  }
 
   &_info {
     width: 100%;
