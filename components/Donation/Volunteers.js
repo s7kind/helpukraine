@@ -441,6 +441,49 @@ const Volunteers = () => {
                         </Link>
                     </div>
                 </div>
+                <div className="flex_table__row">
+                    <div className="flex_table__col">Odessa volunteers help armed forces</div>
+                    <div className="flex_table__col">
+                        At the moment there is a need to buy bunch of different stuff (from food & medicine to body
+                        armor) for the Armed Forces, located in the Odessa region.
+                    </div>
+                    <div className="flex_table__col">
+                        <Link
+                            href="https://docs.google.com/document/d/1KAxJv0BQd9vbNathLM5Bbe8SU-Btv3mUDyarchp2t90/edit#">
+                            <a target="_blank">
+                                <span>Link</span>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
+                <div className="flex_table__row">
+                    <div className="flex_table__col">Medicine purchase in Kharkiv</div>
+                    <div className="flex_table__col">
+                        Money is urgently required to purchase a batch of turnstiles and medicine equipment.
+                    </div>
+                    <div className="flex_table__col">
+                        <Link
+                            href="https://docs.google.com/document/d/1Hz2F30mSlqLnwnz7_onNLpSIgzyFP3HNyfdGYr2WUkY/edit">
+                            <a target="_blank">
+                                <span>Link</span>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
+                <div className="flex_table__row">
+                    <div className="flex_table__col">Help civilians in Kherson</div>
+                    <div className="flex_table__col">
+                        Money is urgently required to buy and deliver food, baby food, hygiene, and medicines directly
+                        to Kherson and Kherson region for civilians. A photo report will be provided.
+                    </div>
+                    <div className="flex_table__col">
+                        <Link href="https://docs.google.com/document/d/1rf1c4EmQX2L1z7bpT4RRN62kjV8wz0wyF9N6DZfCsWk/edit#">
+                            <a target="_blank">
+                                <span>Link</span>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </>
     );
