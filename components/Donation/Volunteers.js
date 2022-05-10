@@ -484,6 +484,20 @@ const Volunteers = () => {
                         </Link>
                     </div>
                 </div>
+                <div className="flex_table__row">
+                    <div className="flex_table__col">Kyiv Headquarters of Volunteers</div>
+                    <div className="flex_table__col">
+                        The volunteer organization that supports both civilians (mostly Chernihiv, Kharkiv, Zaporizhia, and Mykolaiv regions) and the military (Battalion Aidar east of Ukraine, the army in Donetsk, Mykolaiv area, and Azov).
+                        They find and deliver food, medicine, ammunition, and hygiene products for all in need.
+                    </div>
+                    <div className="flex_table__col">
+                        <Link href="https://kyivhq.org.ua/en/">
+                            <a target="_blank">
+                                <span>Website</span>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </>
     );
